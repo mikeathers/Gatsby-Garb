@@ -14,7 +14,7 @@ export const query = graphql`
           price
           image {
             fluid(maxWidth: 800) {
-              ...GatsbyContentfulFluid_tracedSVG
+              ...GatsbyContentfulFluid
             }
           }
         }
